@@ -1,0 +1,157 @@
+
+
+header {
+    display: flex;
+    padding: 0px 20px;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 4px 6px 1px rgb(213, 213, 213);
+
+}
+.mainMenu ul{
+    display: flex;
+
+}
+.mainMenu ul li{
+margin-left: 12px;
+}
+.banner{
+    background-image: url(./images/zooBanner.jpg);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position:relative;
+}
+button{
+    border-radius: 10px;
+    border:none;
+    width: 100px;
+    height: 30px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    z-index: 2;
+    color: darkolivegreen;
+   
+}
+.banner h1{
+
+color: blanchedalmond;
+z-index: 1;
+}
+.banner h3{
+    margin-top: 20px;
+    margin-bottom: 20px;
+color: blanchedalmond;
+z-index: 1;
+}
+.banner::before{
+position: absolute;
+content: "";
+width: 100%;
+height: 100%;
+background-color: black;
+opacity: 0.7;
+z-index: 0;
+}
+.info{
+    z-index: 1;
+    color:black;
+
+}
+.gallery{
+    margin: 50px 0px;
+}
+.info{
+    text-align: center;
+    margin: 0px 45px;
+}
+.animalsPhotos img{
+    margin-top: 30px;
+    margin-right: 10px;
+width: 400px;
+height: 400px;
+margin-left: 20px;
+border-radius: 5px;
+box-shadow: 5px 5px 10px;
+
+}
+.animalsPhotos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.footer{
+    height: 300px;
+    width: 100%;
+    color: black ;
+    border-top: 2px solid black;
+    display: flex;
+    
+    align-items: center;
+    flex-direction: column;
+    position:relative;
+    box-shadow: 0px 9px 4px 0px rgba(0,0,0,0.75) inset;
+    i
+
+}
+.cennik{
+margin-top: -5px;
+margin-top: 20px;
+}
+.redTable{
+    z-index: 1;
+}
+table.redTable {
+    border: 2px solid #A40808;
+    background-color: #EEE7DB;
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+  }
+  table.redTable td, table.redTable th {
+    border: 1px solid #AAAAAA;
+    padding: 3px 2px;
+  }
+  table.redTable tbody td {
+    font-size: 13px;
+  }
+  table.redTable tr:nth-child(even) {
+    background: #F5C8BF;
+  }
+  table.redTable thead {
+    background: #A40808;
+  }
+  table.redTable thead th {
+    font-size: 19px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+    border-left: 2px solid #A40808;
+  }
+  table.redTable thead th:first-child {
+    border-left: none;
+  }
+  
+  table.redTable tfoot {
+    font-size: 13px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background: #A40808;
+  }
+  table.redTable tfoot td {
+    font-size: 13px;
+  }
+  table.redTable tfoot .links {
+    text-align: right;
+  }
+  table.redTable tfoot .links a{
+    display: inline-block;
+    background: #FFFFFF;
+    color: #A40808;
+    padding: 2px 8px;
+    border-radius: 5px;
+  }
